@@ -1,0 +1,200 @@
+/* Globálne štýly pre telo stránky */
+body {
+  font-family: sans-serif; /* Nastavuje základný font pre text na bezpätkové písmo (ľahšie čitateľné na obrazovke). */
+  margin: 20px; /* Pridáva vonkajšie okraje okolo celého obsahu tela stránky. */
+  line-height: 1.6; /* Nastavuje výšku riadka pre lepší komfort čítania. */
+  color: #333; /* Nastavuje základnú farbu textu na tmavosivú. */
+  background-color: #f4f4f4; /* Nastavuje farbu pozadia stránky na svetlosivú. */
+}
+
+/* Štýly pre nadpisy prvej úrovne (<h1>) */
+h1 {
+  font-size: 2.5em; /* Nastavuje veľkosť písma na 2.5-násobok základnej veľkosti. */
+  color: #337ab7; /* Nastavuje farbu nadpisu na modrú (často používaná pre odkazy a dôležité texty). */
+  text-align: center; /* Zarovnáva text nadpisu na stred. */
+  margin-bottom: 20px; /* Pridáva spodný vonkajší okraj pre oddelenie od nasledujúceho obsahu. */
+}
+
+/* Štýly pre obrázok (<img>) */
+img {
+  display: block; /* Správa sa ako blokový element, takže pred a za ním budú zlomy riadkov. */
+  margin: 0 auto 20px auto; /* Nastavuje horný a dolný vonkajší okraj na 20px a ľavý a pravý na auto, čo obrázok vycentruje. */
+  border-radius: 50%; /* Zaokrúhli rohy obrázka do kruhu. */
+  border: 5px solid #ddd; /* Pridáva svetlosivé orámovanie okolo obrázka. */
+  box-shadow: 3px 3px 5px #888; /* Pridáva jemný tieň pod obrázok. */
+}
+
+/* Štýly pre nadpisy druhej úrovne (<h2>) */
+h2 {
+  font-size: 1.8em; /* Nastavuje veľkosť písma. */
+  color: #337ab7; /* Nastavuje farbu nadpisu. */
+  margin-top: 30px; /* Pridáva horný vonkajší okraj pre oddelenie sekcií. */
+  margin-bottom: 10px; /* Pridáva spodný vonkajší okraj. */
+  border-bottom: 2px solid #eee; /* Pridáva tenkú svetlosivú čiaru pod nadpis. */
+  padding-bottom: 5px; /* Pridáva vnútorný spodný okraj pre priestor medzi textom a čiarou. */
+}
+
+/* Štýly pre odstavce (<p>) */
+p {
+  margin-bottom: 15px; /* Pridáva spodný vonkajší okraj medzi odstavcami. */
+}
+
+/* Štýly pre sekciu skúseností (.experience) */
+.experience {
+  margin-top: 30px; /* Horný vonkajší okraj pre oddelenie. */
+}
+
+/* Štýly pre jednu pracovnú pozíciu (.job) */
+.job {
+  margin-bottom: 20px; /* Spodný vonkajší okraj medzi jednotlivými pracovnými pozíciami. */
+  padding: 15px; /* Vnútorný okraj okolo obsahu pracovnej pozície. */
+  border: 1px solid #ddd; /* Tenká svetlosivá orámovanie. */
+  border-radius: 5px; /* Zaoblené rohy orámovania. */
+  background-color: #fff; /* Biele pozadie pre lepšiu čitateľnosť. */
+}
+
+/* Štýly pre nadpisy tretej úrovne (<h3>) - názov spoločnosti */
+.job h3 {
+  font-size: 1.3em; /* Väčšia veľkosť písma pre názov spoločnosti. */
+  color: #555; /* Tmavšia sivá farba. */
+  margin-top: 0; /* Odstraňuje predvolený horný okraj nadpisu. */
+  margin-bottom: 5px; /* Spodný vonkajší okraj. */
+}
+
+/* Štýly pre trvanie zamestnania (.duration) */
+.job .duration {
+  font-style: italic; /* Nastavuje text na kurzívu. */
+  color: #777; /* Svetlejšia sivá farba. */
+  margin-bottom: 10px; /* Spodný vonkajší okraj. */
+}
+
+/* Štýly pre lokalitu práce (.location) */
+.job .location {
+  color: #777; /* Svetlejšia sivá farba. */
+  margin-bottom: 10px; /* Spodný vonkajší okraj. */
+}
+
+/* Štýly pre jednu rolu/pozíciu v rámci spoločnosti (.role) */
+.job .role {
+  margin-top: 15px; /* Horný vonkajší okraj pre oddelenie od predchádzajúcich informácií o práci. */
+  padding-left: 15px; /* Vnútorný ľavý okraj pre odsadenie. */
+  border-left: 3px solid #337ab7; /* Tenká modrá čiara na ľavej strane pre vizuálne oddelenie rolí. */
+  margin-bottom: 10px; /* Spodný vonkajší okraj medzi rolami. */
+}
+
+/* Štýly pre nadpisy štvrtej úrovne (<h4>) - názov pozície */
+.job .role h4 {
+  font-size: 1.1em; /* Mierne menšia veľkosť písma ako názov spoločnosti. */
+  color: #333; /* Tmavá farba textu. */
+  margin-top: 0; /* Odstraňuje predvolený horný okraj. */
+  margin-bottom: 5px; /* Spodný vonkajší okraj. */
+}
+
+/* Štýly pre časové obdobie roly (.timeframe) */
+.job .role .timeframe {
+  font-style: italic; /* Kurzíva. */
+  color: #777; /* Svetlejšia sivá. */
+  margin-bottom: 5px; /* Spodný vonkajší okraj. */
+}
+
+/* Štýly pre zoznam zručností (.skills) */
+.job .role .skills {
+  font-size: 0.9em; /* Menšia veľkosť písma. */
+  color: #555; /* Tmavšia sivá. */
+}
+
+/* Štýly pre tučný text v zručnostiach */
+.job .role .skills strong {
+  font-weight: bold; /* Tučné písmo pre "Skills:". */
+}
+
+/* Štýly pre jednotlivé zručnosti (<span> v zručnostiach) */
+.job .role .skills span {
+  display: inline-block; /* Umožňuje nastaviť okraje a vnútorné okraje, ale prvky zostanú na jednom riadku. */
+  margin-right: 5px; /* Pravý vonkajší okraj pre oddelenie zručností. */
+}
+
+/* Štýly pre sekciu zručností (.skills-section) */
+.skills-section {
+  margin-top: 30px; /* Horný vonkajší okraj pre oddelenie. */
+}
+
+/* Štýly pre neusporiadaný zoznam zručností (.skills-list) */
+.skills-list {
+  list-style: none; /* Odstraňuje odrážky zo zoznamu. */
+  padding: 0; /* Odstraňuje vnútorné okraje zoznamu. */
+  margin: 0; /* Odstraňuje vonkajšie okraje zoznamu. */
+  display: grid; /* Používa CSS Grid pre rozloženie do stĺpcov. */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(150px, 1fr)
+  ); /* Vytvorí stĺpce, minimálna šírka 150px, flexibilné rozloženie. */
+  gap: 10px; /* Medzery medzi položkami gridu (zručnosťami). */
+}
+
+/* Štýly pre jednotlivé položky zručností (<li> v .skills-list) */
+.skills-list li {
+  background-color: #e9ecef; /* Svetlé pozadie pre každú zručnosť. */
+  padding: 8px 15px; /* Vnútorné okraje pre lepšie ohraničenie textu. */
+  border-radius: 5px; /* Zaoblené rohy. */
+  font-size: 0.95em; /* Mierne väčšia veľkosť písma ako predtým. */
+  color: #495057; /* Tmavšia farba textu. */
+  border: 1px solid #ced4da; /* Jemná orámovanie. */
+}
+
+/* Media query pre menšie obrazovky (napr. mobilné telefóny) */
+@media (max-width: 768px) {
+  .skills-list {
+    grid-template-columns: 1fr; /* Zobrazí zručnosti v jednom stĺpci na menších obrazovkách. */
+  }
+}
+
+/* Štýly pre sekciu licencií a certifikácií (.licenses-certifications) */
+.licenses-certifications {
+  margin-top: 30px; /* Horný vonkajší okraj pre oddelenie. */
+}
+
+/* Štýly pre nadpis sekcie licencií a certifikácií (<h2> v .licenses-certifications) */
+.licenses-certifications h2 {
+  font-size: 1.8em; /* Väčšia veľkosť písma. */
+  color: #337ab7; /* Modrá farba. */
+  margin-bottom: 15px; /* Spodný vonkajší okraj. */
+  border-bottom: 2px solid #eee; /* Svetlosivá čiara pod nadpisom. */
+  padding-bottom: 5px; /* Vnútorný spodný okraj. */
+}
+
+/* Štýly pre jednotlivé certifikáty (.certification) */
+.certification {
+  margin-bottom: 15px; /* Spodný vonkajší okraj medzi certifikátmi. */
+  padding: 15px; /* Vnútorný okraj okolo obsahu certifikátu. */
+  border: 1px solid #ddd; /* Svetlosivá orámovanie. */
+  border-radius: 5px; /* Zaoblené rohy. */
+  background-color: #fff; /* Biele pozadie. */
+}
+
+/* Štýly pre nadpis tretej úrovne (<h3>) - názov certifikátu */
+.certification h3 {
+  font-size: 1.15em; /* Mierne väčšia veľkosť písma. */
+  margin-top: 0; /* Odstraňuje predvolený horný okraj. */
+  margin-bottom: 5px; /* Spodný vonkajší okraj. */
+  color: #333; /* Tmavá farba textu. */
+}
+
+/* Štýly pre odstavce s informáciami o certifikáte (<p> v .certification) */
+.certification p {
+  font-size: 0.9em; /* Menšia veľkosť písma. */
+  color: #555; /* Tmavšia sivá farba. */
+  margin-bottom: 3px; /* Menší spodný vonkajší okraj. */
+}
+
+/* Štýly pre triedu s ID certifikátu (.credential-id) */
+.certification .credential-id {
+  font-style: italic; /* Kurzíva pre ID. */
+  color: #777; /* Svetlejšia sivá farba. */
+}
+
+/* Štýly pre sekciu záujmov (h2 a p) */
+h2 + p {
+  /* Selektor pre odstavec, ktorý nasleduje bezprostredne za h2. */
+  margin-top: 10px; /* Pridáva trochu priestoru medzi nadpisom "Interests" a prvým odstavcom. */
+}
